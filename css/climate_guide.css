@@ -1,0 +1,173 @@
+/* İklim Rehberi Sayfası Stilleri*/
+
+.climate-guide-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/forest.png') no-repeat center center;
+  background-size: cover;
+  padding: 120px 0 80px;
+  color: white;
+  text-align: center;
+}
+
+.guide-container {
+  padding: 80px 0;
+  background-color: #fffdfd;
+}
+
+.guide-title {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  position: relative;
+  color: #f5f0f0;
+}
+
+.guide-title:after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: #ccedd9;
+  margin: 15px auto;
+  border-radius: 2px;
+}
+
+.guide-subtitle {
+  font-size: 1.1rem;
+  color: #dce1e2;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.guide-card {
+  background: white;
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 40px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.guide-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.guide-card h2 {
+  color: #198244;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #eee;
+}
+
+.guide-icon {
+  width: 60px;
+  height: 60px;
+  background: #198244;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.term-nav {
+  position: sticky;
+  top: 100px;
+  margin-bottom: 30px;
+}
+
+.term-nav .card {
+  border: none;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.term-nav .card-header {
+  background-color: #198244;
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.term-nav .nav-link {
+  color: #2c3e50;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-left: 3px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.term-nav .nav-link:hover,
+.term-nav .nav-link.active {
+  color: #198244;
+  background-color: rgba(25, 130, 68, 0.05);
+}
+
+.fact-box {
+  background-color: rgba(25, 130, 68, 0.05);
+  border-left: 4px solid #198244;
+  padding: 20px;
+  border-radius: 0 5px 5px 0;
+  margin: 20px 0;
+}
+
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.comparison-table th {
+  background-color: #198244;
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+.comparison-table td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.comparison-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+@media (max-width: 992px) {
+  .climate-guide-header h1 {
+    font-size: 2.5rem;
+  }
+  
+  .guide-card h2 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .climate-guide-header {
+    padding: 100px 0 60px;
+  }
+  
+  .climate-guide-header h1 {
+    font-size: 2.2rem;
+  }
+  
+  .guide-container {
+    padding: 60px 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .climate-guide-header h1 {
+    font-size: 1.8rem;
+  }
+  
+  .climate-guide-header p {
+    font-size: 1rem;
+  }
+  
+  .guide-card {
+    padding: 20px;
+  }
+}

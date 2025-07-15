@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AwareEarth | İklim Rehberi</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/climate_guide.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <i class="fas fa-leaf text-success me-2"></i>
+        <span class="brand-text">AwareEarth</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="index.html">Anasayfa</a></li>
+          <li class="nav-item"><a class="nav-link active" href="climate_guide.html">İklim Rehberi</a></li>
+          <li class="nav-item"><a class="nav-link" href="solutions.html">Çözümler</a></li>
+        </ul>
+        <div class="d-flex ms-3">
+          <a href="contact.html" class="btn btn-success">Bize Ulaşın <i class="fas fa-arrow-right ms-2"></i></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="climate-guide-header">
+    <div class="container">
+        <div class="section-header">
+          <h2 class="guide-title">İklim Rehberi</h2>
+          <p class="guide-subtitle">İklim duyarlılığı için daha fazla bilgi edinerek farkındalığınızı artırın</p>
+        </div>
+    </div>
+  </section>
+
+  <div class="guide-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="term-nav">
+            <div class="card">
+              <div class="card-header">
+                <h5 class="mb-0">Rehber İçeriği</h5>
+              </div>
+              <div class="card-body">
+                <ul class="nav nav-pills flex-column">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#climate-weather">İklim-Hava Farkı</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#global-warming">Küresel Isınma</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#carbon-footprint">Karbon Ayak İzi</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#fossil-fuels">Fosil Yakıtlar</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#climate-justice">İklim Adaleti</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- İklim Rehberi İçeriği -->
+        <div class="col-lg-9" id="climate-basics">
+          <!-- İklim ve Hava Farkı -->
+          <div class="guide-card" id="climate-weather">
+            <div class="guide-icon">
+              <i class="fas fa-cloud-sun"></i>
+            </div>
+            <h2>İklim ve Hava Arasındaki Fark</h2>
+            <p>İklim ve hava terimleri sıklıkla birbirinin yerine kullanılsa da aslında farklı kavramlardır:</p>
+            
+            <div class="row mt-4">
+              <div class="col-md-6 mb-4">
+                <div class="fact-box">
+                  <h5 class="text-success"><i class="fas fa-sun me-2"></i> Hava Durumu</h5>
+                  <p>Belirli bir yerde kısa süreli (dakikalar, saatler, günler) atmosferik koşulları ifade eder. Örneğin bugün yağmurlu olması veya yarın sıcaklığın 25°C olması hava durumuyla ilgilidir.</p>
+                </div>
+              </div>
+              <div class="col-md-6 mb-4">
+                <div class="fact-box">
+                  <h5 class="text-success"><i class="fas fa-globe me-2"></i> İklim</h5>
+                  <p>Bir bölgede uzun süreli (en az 30 yıl) gözlemlenen ortalama hava koşullarının istatistiksel tanımıdır. Örneğin Akdeniz iklimi yazları sıcak ve kurak, kışları ılık ve yağışlı olarak tanımlanır.</p>
+                </div>
+              </div>
+            </div>
+            
+            <h5 class="text-success">Anahtar Farklar:</h5>
+            <table class="comparison-table">
+              <thead>
+                <tr>
+                  <th>Kriter</th>
+                  <th>Hava</th>
+                  <th>İklim</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Zaman ölçeği</td>
+                  <td>Kısa vadeli (günler)</td>
+                  <td>Uzun vadeli (30+ yıl)</td>
+                </tr>
+                <tr>
+                  <td>Değişkenlik</td>
+                  <td>Günlük değişir</td>
+                  <td>Yavaş değişir</td>
+                </tr>
+                <tr>
+                  <td>Tahmin</td>
+                  <td>7-10 gün</td>
+                  <td>On yıllar boyunca</td>
+                </tr>
+              </tbody>
+            </table>
+            
+            <div class="fact-box mt-4">
+              <i class="fas fa-info-circle text-success me-2"></i> İklim değişikliği dediğimizde, bu uzun vadeli ortalama koşullardaki değişimleri ifade ederiz, günlük hava olaylarını değil.
+            </div>
+          </div>
+
+          <!-- Küresel Isınma Nedir -->
+          <div class="guide-card" id="global-warming">
+            <div class="guide-icon">
+              <i class="fas fa-temperature-high"></i>
+            </div>
+            <h2>Küresel Isınma Nedir?</h2>
+            <p>Küresel ısınma, Dünya'nın ortalama yüzey sıcaklığındaki uzun vadeli artışı ifade eder. Bu artış özellikle sanayi devriminden bu yana hız kazanmıştır.</p>
+            
+            <div class="row mt-4">
+              <div class="col-md-6">
+                <h5 class="text-success"><i class="fas fa-fire me-2"></i> Temel Nedenleri</h5>
+                <ul class="fa-ul">
+                  <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>Sera gazları (CO₂, metan, azot oksitler) artışı</li>
+                  <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>Fosil yakıtların yakılması</li>
+                  <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>Ormanların yok edilmesi</li>
+                  <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>Endüstriyel tarım ve hayvancılık</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <h5 class="text-success"><i class="fas fa-exclamation-triangle me-2"></i> Gözlemlenen Etkiler</h5>
+                <ul class="fa-ul">
+                  <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>Buzulların erimesi</li>
+                  <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>Deniz seviyesi yükselmesi</li>
+                  <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>Aşırı hava olayları</li>
+                  <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>Ekosistem bozulması</li>
+                </ul>
+              </div>
+            </div>
+            
+            <div class="row mt-4">
+              <div class="col-md-6">
+                <div class="fact-box">
+                  <h5 class="text-success"><i class="fas fa-chart-line me-2"></i> Sıcaklık Artışı</h5>
+                  <p>NASA verilerine göre, Dünya'nın ortalama sıcaklığı 1880'den bu yana 1.1°C arttı ve bu artışın büyük kısmı son 50 yılda gerçekleşti.</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="fact-box">
+                  <h5 class="text-success"><i class="fas fa-bullseye me-2"></i> Hedef</h5>
+                  <p>Paris Anlaşması, küresel sıcaklık artışını sanayi öncesi döneme göre 1.5°C ile sınırlamayı hedefliyor.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Karbon Ayak İzi Nedir -->
+          <div class="guide-card" id="carbon-footprint">
+            <div class="guide-icon">
+              <i class="fas fa-shoe-prints"></i>
+            </div>
+            <h2>Karbon Ayak İzi Nedir?</h2>
+            <p>Karbon ayak izi, bir bireyin, kuruluşun, etkinliğin veya ürünün doğrudan ve dolaylı olarak neden olduğu toplam sera gazı emisyonlarının ölçüsüdür.</p>
+            
+            <div class="row mt-4">
+              <div class="col-md-6">
+                <h5 class="text-success"><i class="fas fa-shoe-prints me-2"></i> Kapsamı</h5>
+                <ul class="fa-ul">
+                  <li><span class="fa-li"><i class="fas fa-bolt text-success"></i></span>Enerji tüketimi</li>
+                  <li><span class="fa-li"><i class="fas fa-utensils text-success"></i></span>Gıda üretim ve tüketimi</li>
+                  <li><span class="fa-li"><i class="fas fa-shopping-bag text-success"></i></span>Ürün ve hizmetler</li>
+                  <li><span class="fa-li"><i class="fas fa-trash text-success"></i></span>Atık yönetimi</li>
+                </ul>
+              </div>
+              <!-- Bu tablo, kişi başına düşen yıllık ortalama karbon ayak izini gösterir -->
+              <div class="col-md-6">
+                <h5 class="text-success"><i class="fas fa-globe-americas me-2"></i> Ülke Ortalamaları (ton CO₂e/kişi/yıl)</h5>
+                <div class="progress mb-2" style="height: 25px;">
+                  <div class="progress-bar bg-danger" role="progressbar" style="width: 100%;">ABD: 16</div>
+                </div>
+                <div class="progress mb-2" style="height: 25px;">
+                  <div class="progress-bar bg-warning" role="progressbar" style="width: 44%;">AB: 7</div>
+                </div>
+                <div class="progress mb-2" style="height: 25px;">
+                  <div class="progress-bar bg-info" role="progressbar" style="width: 31%;">Türkiye: 5</div>
+                </div>
+                <div class="progress" style="height: 25px;">
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 25%;">Dünya: 4</div>
+                </div>
+              </div>
+            </div>
+            
+            <h5 class="mt-4 text-success"><i class="fas fa-lightbulb me-2"></i> Azaltma Yöntemleri</h5>
+            <div class="row mt-3">
+              <div class="col-md-4 col-6 mb-3">
+                <div class="card h-100 border-success">
+                  <div class="card-body text-center">
+                    <i class="fas fa-bus text-success mb-2" style="font-size: 2rem;"></i>
+                    <h6>Toplu Taşıma</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-6 mb-3">
+                <div class="card h-100 border-success">
+                  <div class="card-body text-center">
+                    <i class="fas fa-solar-panel text-success mb-2" style="font-size: 2rem;"></i>
+                    <h6>Yenilenebilir Enerji</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-6 mb-3">
+                <div class="card h-100 border-success">
+                  <div class="card-body text-center">
+                    <i class="fas fa-leaf text-success mb-2" style="font-size: 2rem;"></i>
+                    <h6>Bitki Temelli Beslenme</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Fosil Yakıtlar Neden Tehlikelidir -->
+          <div class="guide-card" id="fossil-fuels">
+            <div class="guide-icon">
+              <i class="fas fa-gas-pump"></i>
+            </div>
+            <h2>Fosil Yakıtlar Neden Tehlikelidir?</h2>
+            <p>Fosil yakıtlar (kömür, petrol, doğalgaz) milyonlarca yıl önce yaşamış canlıların kalıntılarından oluşan ve yüksek karbon içeriğine sahip yakıtlardır.</p>
+            
+            <div class="row mt-4">
+              <div class="col-md-6">
+                <h5 class="text-success"><i class="fas fa-skull-crossbones me-2"></i> İklim Değişikliği Etkileri</h5>
+                <ul class="fa-ul">
+                  <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>Büyük miktarda CO₂ salınımı</li>
+                  <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>Metan sızıntıları</li>
+                  <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>Atmosferdeki CO₂'yi %50+ artırdı</li>
+                  <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>Sürdürülebilir değiller</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <h5 class="text-success"><i class="fas fa-lungs me-2"></i> Diğer Olumsuz Etkiler</h5>
+                <ul class="fa-ul">
+                  <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>Hava kirliliği ve akciğer hastalıkları</li>
+                  <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>Petrol sızıntıları ile su kirliliği</li>
+                  <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>Madencilikle toprak bozulması</li>
+                  <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>Asit yağmurları</li>
+                </ul>
+              </div>
+            </div>
+            
+            <div class="fact-box mt-4">
+              <i class="fas fa-exclamation-triangle text-success me-2"></i> Bilim insanları, iklim krizini durdurmak için fosil yakıtların büyük ölçüde yerin altında kalması gerektiğini vurgulamaktadır.
+            </div>
+          </div>
+
+          <!-- İklim Adaleti Nedir -->
+          <div class="guide-card" id="climate-justice">
+            <div class="guide-icon">
+              <i class="fas fa-balance-scale"></i>
+            </div>
+            <h2>İklim Adaleti Nedir?</h2>
+            <p>İklim adaleti, iklim değişikliğinin nedenleri ve sonuçlarının toplumlar arasında adil dağılımını savunan bir kavramdır.</p>
+            
+            <div class="row mt-4">
+              <div class="col-md-6">
+                <h5 class="text-success"><i class="fas fa-balance-scale me-2"></i> Temel İlkeler</h5>
+                <ul class="fa-ul">
+                  <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>En az katkıda bulunanlar en çok etkileniyor</li>
+                  <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>Gelişmiş ülkelerin tarihsel sorumluluğu</li>
+                  <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>Çözümlerde hakkaniyet</li>
+                  <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>Geçiş sürecinde hakların korunması</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <h5 class="text-success"><i class="fas fa-globe-africa me-2"></i> Savunmasız Gruplar</h5>
+                <ul class="fa-ul">
+                  <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>Küçük ada devletleri</li>
+                  <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>Afrika ülkeleri (emisyonların %4'ü)</li>
+                  <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>Yerli topluluklar</li>
+                  <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>Düşük gelirli mahalleler</li>
+                </ul>
+              </div>
+            </div>
+            
+            <h5 class="mt-4 text-success"><i class="fas fa-hands-helping me-2"></i> Çözüm Yaklaşımları</h5>
+            <div class="row mt-3">
+              <div class="col-md-3 col-6 mb-3">
+                <div class="card h-100 border-success">
+                  <div class="card-body text-center">
+                    <i class="fas fa-money-bill-wave text-success mb-2" style="font-size: 1.5rem;"></i>
+                    <p class="mb-0 small">İklim finansmanı</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-6 mb-3">
+                <div class="card h-100 border-success">
+                  <div class="card-body text-center">
+                    <i class="fas fa-cogs text-success mb-2" style="font-size: 1.5rem;"></i>
+                    <p class="mb-0 small">Teknoloji transferi</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-6 mb-3">
+                <div class="card h-100 border-success">
+                  <div class="card-body text-center">
+                    <i class="fas fa-users text-success mb-2" style="font-size: 1.5rem;"></i>
+                    <p class="mb-0 small">Topluluk katılımı</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-6 mb-3">
+                <div class="card h-100 border-success">
+                  <div class="card-body text-center">
+                    <i class="fas fa-passport text-success mb-2" style="font-size: 1.5rem;"></i>
+                    <p class="mb-0 small">İklim göçmen hakları</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+    <footer class="aware-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-about">
+            <a href="index.html" class="footer-logo">
+                <i class="fas fa-leaf text-success me-2"></i>
+                <span class="fw-bold">AwareEarth</span>
+            </a>
+            <p class="footer-description mt-3">İklim duyarlılığı ve sürdürülebilir yaşam için harekete geçin.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+
+            </div>
+          </div>
+            
+          <div class="footer-links">
+            <h3 class="footer-title">Bağlantılar</h3>
+            <ul class="list-unstyled">
+                <li><a href="index.html">Anasayfa</a></li>
+                <li><a href="climate_guide.html">İklim Rehberi</a></li>
+                <li><a href="solutions.html">Çözümler</a></li>
+                <li><a href="contact.html">İletişim</a></li>
+            </ul>
+          </div>
+            
+          <div class="footer-links">
+            <h3 class="footer-title">Kaynaklar</h3>
+            <ul class="list-unstyled">
+                <li><a href="#">İklim Verileri</a></li>
+                <li><a href="#">Araştırmalar</a></li>
+                <li><a href="#">Sık Sorulan Sorular</a></li>
+                <li><a href="#">Gizlilik Politikası</a></li>
+            </ul>
+          </div>
+            
+          <div class="footer-contact">
+            <h3 class="footer-title">İletişim</h3>
+            <ul class="list-unstyled">
+                <li><i class="fas fa-map-marker-alt"></i> İstanbul, Türkiye</li>
+                <li><i class="fas fa-phone"></i> +90 212 482 35 26</li>
+                <li><i class="fas fa-envelope"></i> info@awareearth.com</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 AwareEarth. Tüm hakları saklıdır.</p>
+        </div>
+      </div>
+    </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

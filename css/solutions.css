@@ -1,0 +1,178 @@
+/* Çözümler Sayfası Stilleri */
+
+/* Temel Çözüm Kartı Yapısı */
+.solution-section {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.solution-card {
+    margin-bottom: 80px;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.solution-img {
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: transform 0.5s ease;
+    max-height: 400px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.solution-img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+}
+
+.solution-content {
+    padding: 30px;
+}
+
+.solution-title {
+    color: #198244;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 1.8rem;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+/* İstatistik Kartları */
+.solution-stats {
+    background: #f0f7f4;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px 0;
+    border-left: 4px solid #198244;
+}
+
+.stat-item {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.stat-value {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #198244;
+    line-height: 1;
+}
+
+.stat-label {
+    font-size: 0.85rem;
+    color: #6c757d;
+    margin-top: 5px;
+}
+
+/* Liste Öğeleri */
+.fa-ul {
+    margin-left: 1.8em;
+}
+
+.fa-ul li {
+    padding: 5px 0;
+    font-size: 0.95rem;
+}
+
+.fa-li {
+    left: -1.8em;
+    width: 1.4em;
+    top: 0.3em;
+}
+
+/* Kompost Özel Stiller */
+.compost-tips {
+    background: #f0f7f4;
+    border-radius: 8px;
+    padding: 15px;
+    border-left: 4px solid #ff9a3c;
+    margin-top: 20px;
+}
+
+.compost-tips h5 {
+    color: #198244;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+}
+
+.compost-tips h5 i {
+    margin-right: 8px;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.list-unstyled li {
+    padding: 3px 0;
+    display: flex;
+    align-items: center;
+}
+
+.list-unstyled i {
+    margin-right: 8px;
+    font-size: 0.9rem;
+}
+
+.list-unstyled .fa-check {
+    color: #27ae60;
+}
+
+.list-unstyled .fa-times {
+    color: #e74c3c;
+}
+
+/* Responsive Ayarlar */
+@media (max-width: 992px) {
+    .solution-title {
+        font-size: 1.6rem;
+    }
+    
+    .stat-value {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .solution-card {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    
+    .solution-img {
+        max-height: 300px;
+        margin-bottom: 20px;
+    }
+    
+    .solution-content {
+        padding: 20px 15px;
+    }
+    
+    .solution-title {
+        font-size: 1.4rem;
+    }
+    
+    .stat-value {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .solution-section {
+        padding: 50px 0;
+    }
+    
+    .solution-stats .row {
+        flex-direction: column;
+    }
+    
+    .stat-item {
+        text-align: left !important;
+        padding: 8px 0;
+    }
+}
